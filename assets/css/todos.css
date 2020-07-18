@@ -56,3 +56,6 @@ input:focus {
   color: gray;
   text-decoration: line-through;
 }
+.fa-plus{
+    float: right;
+}
