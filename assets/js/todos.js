@@ -1,10 +1,12 @@
 //check off specific to do by clicking
-$("li").click(function () {
+//using 'on' method instead 'click', 
+    //to make this work also to the elements that added dynamically 
+$("ul").on("click", "li", function () {
   $(this).toggleClass("completed");
 });
 
 //click on X to delete to do li 
-$("span").click(function(event){
+$("ul").on("click", "span",function (event) {
     $(this).parent().fadeOut(500, function(){
         $(this).remove();
     });
