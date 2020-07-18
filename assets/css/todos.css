@@ -26,6 +26,21 @@ li{
 li:nth-child(2n){
     background: #f7f7f7;
 }
+input{
+    font-size: 18px;
+    color: #2980b9;
+    background: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px ;
+    box-sizing: border-box;
+    /* border-box: including padding but not the margins */
+}
+input:focus{
+    background: white;
+    border: 3px solid #2980b9;
+    outline: none;
+
+}
 #container{
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);    
 width: 360px;
