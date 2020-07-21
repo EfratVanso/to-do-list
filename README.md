@@ -13,7 +13,7 @@ Jquery
 Css
 
 ## Installation
-- Clone this repo to your local machine using `https://github.com/EfratVanso/color-game.git`
+- Clone this repo to your local machine using https://github.com/EfratVanso/to-do-list.git
 - open index.html in your browser
 
 ## Running Example
